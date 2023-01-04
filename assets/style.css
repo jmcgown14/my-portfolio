@@ -1,12 +1,12 @@
 body {
     background-color: #faf5e4;
+    color:#004445;
 }
 
 .header {
     padding: 15px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Arial, sans-serif;
     background-color: #f8b400;
-    color: #004445;
 }
 
 h1{
@@ -20,3 +20,40 @@ h1{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
 }
+
+.quick-links ul {
+    list-style-type: none;
+}
+
+.quick-links ul li {
+    display: inline-block;
+    margin: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Color scheme colors
+Header footer colors
+.first-color { 
+	background: #f8b400; 
+
+For website background
+.second-color { 
+	background: #faf5e4; 
+
+use for box backgrounds if needed or border
+.third-color { 
+	background: #2c786c; 
+}
+ use for font
+.fourth-color { 
+	background: #004445; 
+}
+*/
