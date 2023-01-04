@@ -30,6 +30,15 @@ h1{
     margin: 5px;
 }
 
+.projects {
+    flex:auto;
+    background-image: none;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 
 
 
