@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #faf5e4;
     color:#004445;
@@ -30,15 +34,19 @@ h1{
     margin: 5px;
 }
 
-.projects {
-    flex:auto;
-    background-image: none;
-    padding: 50px;
+.all-project-cards{
+    padding: 40px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
 }
 
+.project-card {
+    padding: 10px;
+    flex: 0 0 500px;
+    border-style: solid;
+    border-color: #004445;
+    border-width: 1.5px;
+}
 
 
 
