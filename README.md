@@ -8,3 +8,7 @@ Since I only have one project completed so far, there is one setion that has a n
 
 The page and contents resize to fit other media screens.
 
+![Screen Shot One](./assets/Challenge%202%20pt1.png "Screen Shot One")
+![Screen Shot Two](./assets/challenge%202%20pt2.png "Screen Shot Two")
+
+![Project Link](https://jmcgown14.github.io/my-portfolio/ "My Portfolio")
