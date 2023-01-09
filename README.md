@@ -7,3 +7,4 @@ You are able to click on the Navigation Links on the top of th screen to scroll 
 Since I only have one project completed so far, there is one setion that has a navigatable link. It will take you to the Refactory Challenge that we did for Week 1.
 
 The page and contents resize to fit other media screens.
+
