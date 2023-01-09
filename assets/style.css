@@ -17,6 +17,16 @@ h1{
     display: inline-block;
     font-size: px;
 }
+
+h3{
+    color: white;
+}
+
+.bio-pic{
+    width: 100%;
+    height:auto;
+    margin: 10 10 10 10px;
+}
 .quick-links {
     padding-top: 15px;
     margin-right: 20px;
@@ -35,7 +45,7 @@ h1{
 }
 
 .all-project-cards{
-    padding: 40px;
+    /*padding: 40px;*/
     display: flex;
     flex-wrap: wrap;
 }
@@ -43,13 +53,38 @@ h1{
 .project-card {
     padding: 10px;
     flex: 0 0 500px;
+    height: 275px;
     border-style: solid;
     border-color: #004445;
     border-width: 1.5px;
 }
 
-.project-image{
-    width: 100%;
+#forest{
+    background-image: url(./Forest.png);
+    background-size: 100%;
+}
+
+#refactory-challenge{
+    background-image: url(./challenge\ one.jpeg);
+    background-size: 100%;
+}
+
+#planets{
+    background-image: url(./planets.jpg);
+    background-size: 100%;
+}
+
+#tower{
+    background-image: url(./tower.jpg);
+    background-size: 100%;
+}
+
+.contact-quick-links{
+    list-style-type: none;
+    padding-top: 15px;
+    margin-right: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
 }
 
 @media screen and (max-width: 750px){
