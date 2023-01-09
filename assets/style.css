@@ -15,7 +15,7 @@ body {
 
 h1{
     display: inline-block;
-    font-size: px;
+    font-size: vw;
 }
 
 h3{
@@ -24,9 +24,8 @@ h3{
 
 .bio-pic{
     width: 100%;
-    height:auto;
-    margin: 10 10 10 10px;
 }
+
 .quick-links {
     padding-top: 15px;
     margin-right: 20px;
@@ -44,10 +43,21 @@ h3{
     margin: 5px;
 }
 
+.my-info {
+    padding: 10px;
+    flex:auto;
+    border-style: solid;
+    border-color: #004445;
+    border-width: 1.5px;
+    margin: 10px;
+    border-radius: 25px;
+}
+
 .all-project-cards{
-    /*padding: 40px;*/
+    padding: 10px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: auto;
 }
 
 .project-card {
@@ -57,6 +67,8 @@ h3{
     border-style: solid;
     border-color: #004445;
     border-width: 1.5px;
+    margin: 10px;
+    border-radius: 25px;
 }
 
 #forest{
@@ -81,23 +93,19 @@ h3{
 
 .contact-quick-links{
     list-style-type: none;
-    padding-top: 15px;
-    margin-right: 20px;
+    /*padding-top: 15px;*/
+    /*margin-right: 20px;*/
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 15px;
 }
 
-@media screen and (max-width: 750px){
-    body,
-    nav (
-        flex-direction: column;
-    )
+footer li{
+    display: inline-block;
+    margin: 7px;
 }
 
-
-
-
-
+@media screen and (max-width: 750px){
+}
 
 /* Color scheme colors
 Header footer colors
